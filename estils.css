@@ -42,3 +42,45 @@ h2 {
 li {
     margin-bottom: 8px;
 }
+
+/* ===== MENÚ ===== */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+nav a {
+    color: ghostwhite;
+    text-decoration: none;
+    border: 1px solid crimson;
+    padding: 6px 12px;
+}
+
+/* ===== FICHAS ===== */
+.contenedor-fichas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ficha {
+    background-color: white;
+    border-left: 5px solid crimson;
+    padding: 15px;
+    width: 250px;
+}
+
+.ficha h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+}
+
+/* ===== SECCIÓN CONCRETA ===== */
+#estado {
+    border-top: 5px solid crimson;
+}
