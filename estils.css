@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: lightgray;
     color: #222;
+        line-height: 1.6;
 }
 h1 {
     color: crimson;
@@ -31,4 +32,13 @@ section {
 footer {
     text-align: center;
     padding: 20px;
+}
+
+h2 {
+    color: crimson;
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 8px;
 }
