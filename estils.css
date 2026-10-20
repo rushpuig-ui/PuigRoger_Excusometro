@@ -1,12 +1,12 @@
 body {
     font-family: Verdana, sans-serif;
     margin: 0;
-    background-color: lightgray;
+    background-color: #e8f0ea;
     color: #222;
         line-height: 1.6;
 }
 h1 {
-    color: crimson;
+    color: #2e8b57;
     font-size: 3em;
 }
 
@@ -35,7 +35,7 @@ footer {
 }
 
 h2 {
-    color: crimson;
+    color: #2e8b57;
     font-weight: bold;
 }
 
@@ -57,7 +57,7 @@ nav li {
 nav a {
     color: ghostwhite;
     text-decoration: none;
-    border: 1px solid crimson;
+    border: 1px solid #2e8b57;
     padding: 6px 12px;
 }
 
@@ -70,7 +70,7 @@ nav a {
 
 .ficha {
     background-color: white;
-    border-left: 5px solid crimson;
+    border-left: 5px solid #2e8b57;
     padding: 15px;
     width: 250px;
 }
@@ -82,5 +82,22 @@ nav a {
 
 /* ===== SECCIÓN CONCRETA ===== */
 #estado {
-    border-top: 5px solid crimson;
+    border-top: 5px solid #2e8b57;
+}
+
+/* ===== VEREDICTOS ===== */
+.veredicto {
+    font-weight: bold;
+}
+
+.creible {
+    color: green;
+}
+
+.dudosa {
+    color: darkorange;
+}
+
+.falsa {
+    color: #c0392b;
 }
