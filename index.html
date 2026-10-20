@@ -8,12 +8,13 @@
     <meta name="description" content="Sistema experimental para detectar excusas académicas">
     <meta name="keywords" content="excusas, académico, supervisión, tecnología">
     <link rel="icon" href="img/robot-solid-full.svg">
-    <title>Excusómetro</title> 
+    <title>Excusómetro</title>
     <link rel="stylesheet" href="estils.css">
 </head>
 
 <body>
     <header>
+        <img src="img/robot-solid-full.svg" alt="Robot detector de excusas" class="logo">
         <h1>Excusómetro molón</h1>
         <p>Excusas que necesitan supervisión profesional</p>
         <nav>
@@ -23,7 +24,7 @@
                 <li><a href="#catalogo">Catálogo de excusas</a></li>
                 <li><a href="#protocolo">Protocolo oficial de análisis</a></li>
                 <li><a href="#estado">Estado del sistema</a></li>
-            </ul>   
+            </ul>
         </nav>
 
     </header>
@@ -31,54 +32,92 @@
         <section id="detector">
             <h2>¿Qué hacemos?</h2>
             <p>Analizamos excusas académicas mediante tecnología poco fiable.</p>
-            <p>Llevamos años escuchando excusas en clase y ya era hora de estudiarlas con un poco de ciencia (o algo parecido).</p>
+            <p>Llevamos años escuchando excusas en clase y ya era hora de estudiarlas con un poco de ciencia (o algo
+                parecido).</p>
         </section>
         <section id="como-funciona">
             <h2>¿Cómo funciona?</h2>
-             <p>El alumno nos cuenta su excusa, nosotros la pasamos por el Excusómetro y, en pocos segundos, sabemos si dice la verdad o si nos está liando.</p>
+            <p>El alumno nos cuenta su excusa, nosotros la pasamos por el Excusómetro y, en pocos segundos, sabemos si
+                dice la verdad o si nos está liando.</p>
         </section>
-                <section id="catalogo">
+        <section id="catalogo">
             <h2>Catálogo de excusas</h2>
-            <p> Estas son las excusas más habituales que recibimos en el laboratorio:</p>
+            <p>Estas son las excusas más habituales que recibimos en el laboratorio:</p>
             <div class="contenedor-fichas">
+
                 <article class="ficha">
-                <h3>"Se me ha comido el perro los apuntes."</h3>
-                <p>Credibilidad: 2/10</p>
-                <p class="veredicto falsa">Veredicto: falsa</p>
+                    <h3>"Se me ha comido el perro los apuntes."</h3>
+                    <p>Credibilidad: 2/10</p>
+                    <ul>
+                        <li>Se usa en: cualquier asignatura</li>
+                        <li>Drama: 😐</li>
+                    </ul>
+                    <p class="veredicto falsa">Veredicto: falsa</p>
                 </article>
+
                 <article class="ficha">
-                <h3>"Pensaba que era para el sábado que viene."</h3>
-                <p>Credibilidad: 5/10</p>
-                <p class="veredicto dudosa">Veredicto: dudosa</p>
+                    <h3>"Pensaba que era para el sábado que viene."</h3>
+                    <p>Credibilidad: 5/10</p>
+                    <ul>
+                        <li>Se usa en: entregas de los viernes</li>
+                        <li>Drama: 😬</li>
+                    </ul>
+                    <p class="veredicto dudosa">Veredicto: dudosa</p>
                 </article>
+
                 <article class="ficha">
-                <h3>"No tenía internet."</h3>
-                <p>Credibilidad: 3/10</p>
-                <p class="veredicto dudosa">Veredicto: dudosa</p>
+                    <h3>"No tenía internet."</h3>
+                    <p>Credibilidad: 3/10</p>
+                    <ul>
+                        <li>Se usa en: trabajos online</li>
+                        <li>Drama: 😐</li>
+                    </ul>
+                    <p class="veredicto dudosa">Veredicto: dudosa</p>
                 </article>
+
                 <article class="ficha">
-                <h3>"VirtualBox se cerró solo y lo perdí todo."</h3>
-                <p>Credibilidad: 4/10</p>
-                <p class="veredicto dudosa">Veredicto: dudosa</p>
+                    <h3>"VirtualBox se cerró solo y lo perdí todo."</h3>
+                    <p>Credibilidad: 4/10</p>
+                    <ul>
+                        <li>Se usa en: Sistemas operativos</li>
+                        <li>Drama: 😱</li>
+                    </ul>
+                    <p class="veredicto dudosa">Veredicto: dudosa</p>
                 </article>
+
                 <article class="ficha">
-                <h3>"Lo subí a GitHub, pero se ve que no se guardó."</h3>
-                <p>Credibilidad: 6/10</p>
-                <p class="veredicto creible">Veredicto: creíble</p>
+                    <h3>"Lo subí a GitHub, pero se ve que no se guardó."</h3>
+                    <p>Credibilidad: 6/10</p>
+                    <ul>
+                        <li>Se usa en: Lenguajes de marcas</li>
+                        <li>Drama: 😬</li>
+                    </ul>
+                    <p class="veredicto creible">Veredicto: creíble</p>
                 </article>
+
                 <article class="ficha">
-                <h3>"El portátil se actualizó justo cuando iba a entregar."</h3>
-                <p>Credibilidad: 7/10</p>
-                <p class="veredicto creible">Veredicto: creíble</p>
+                    <h3>"El portátil se actualizó justo cuando iba a entregar."</h3>
+                    <p>Credibilidad: 7/10</p>
+                    <ul>
+                        <li>Se usa en: cualquier entrega</li>
+                        <li>Drama: 😱</li>
+                    </ul>
+                    <p class="veredicto creible">Veredicto: creíble</p>
                 </article>
+
                 <article class="ficha">
-                <h3>"Lo tenía en un USB y el USB ha desaparecido."</h3>
-                <p>Credibilidad: 1/10</p>
-                <p class="veredicto falsa">Veredicto: falsa</p>
+                    <h3>"Lo tenía en un USB y el USB ha desaparecido."</h3>
+                    <p>Credibilidad: 1/10</p>
+                    <ul>
+                        <li>Se usa en: trabajos de grupo</li>
+                        <li>Drama: 😬</li>
+                    </ul>
+                    <p class="veredicto falsa">Veredicto: falsa</p>
                 </article>
+
             </div>
         </section>
-        	<section id="protocolo">
+        <section id="protocolo">
             <h2>Protocolo oficial de análisis</h2>
             <p>Cada excusa que entra en el laboratorio sigue estos pasos:</p>
             <ol>
@@ -91,7 +130,8 @@
         </section>
         <section id="estado">
             <h2>Estado del sistema</h2>
-            <p>Sistema preparado para recibir excusas.</p> 
+            <p>Sistema operativo y preparado para recibir excusas.</p>
+            <p>Última excusa analizada: "No tenía internet". Veredicto: el wifi funcionaba perfectamente.</p>
         </section>
     </main>
     <footer>
